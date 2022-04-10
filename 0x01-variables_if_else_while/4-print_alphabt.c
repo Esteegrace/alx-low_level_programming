@@ -10,7 +10,7 @@ int main(void)
 {
 char alphabet;
 
-for (alphabet = 'a'; alphabet <= 'z'; alpabet++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 if (alphabet == 'q')
 continue;
