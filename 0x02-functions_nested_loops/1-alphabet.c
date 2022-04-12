@@ -1,27 +1,26 @@
 #include "main.h"
 /**
- * print_alphabet - print alphabet lowercase
+ * print_alphabet_x10 - a function that prints 10 times the alphabet
  *
- * Return: Always 0.
+ * Return: x10 a-z
  */
 void print_alphabet(void)
 
 {
+	int n, co;
 
-	char alphabet;
+	i = 0;
 
-
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-
+	while (i < 10)
+	
 	{
-
-		_putchar (alphabet);
-
+		for (n = 'a'; n <= 'z'; n++)
+		{
+			_putchar(alphabet);
+		}
+		i++;
+		_putchar('\n');
 	}
-
-
-
-	_putchar('\n');
 
 
 
