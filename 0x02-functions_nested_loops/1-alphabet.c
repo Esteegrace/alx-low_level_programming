@@ -7,7 +7,7 @@
 void print_alphabet(void)
 
 {
-	int n, co;
+	int n, i;
 
 	i = 0;
 
