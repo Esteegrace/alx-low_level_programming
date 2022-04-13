@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
 
@@ -17,6 +16,3 @@ void print_to_98(int n);
 void print_times_table(int n);
 
 #endif
-=======
-
->>>>>>> 9c594110fffcc76ec76ac2761c378a29d5f2972c
