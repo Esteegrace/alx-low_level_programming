@@ -8,7 +8,7 @@
 
 void print_rev(char *s)
 {
-	char str = "I do not fear computer, I fear lack of them - Issac Asimov";
+	char *str = "I do not fear computer, I fear lack of them - Issac Asimov";
 	reverse(str);
 	_putchar("%s\n", str);
 	return (0);
