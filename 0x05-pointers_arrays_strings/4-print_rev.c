@@ -1,15 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * print_rev - Prints a string in reverse, followed by a new line.
- * @str: A pointer to a nstring that will be reversed
+ * print_rev - prints a string reversed
  *
- * Return: void that means our answer is correct
+ * @s: Pointer
  */
 
 void print_rev(char *s)
 {
-	char *str = "I do not fear computer, I fear lack of them - Issac Asimov";
-	reverse(str);
-	_putchar("%s\n", str);
-	return (0);
+	int i = 0;
+
+	while (s[i])
+		i++;
+	while (i--)
+		_putchar (s[i]);
+	_putchar ('\n');
 }
